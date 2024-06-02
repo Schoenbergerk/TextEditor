@@ -36,7 +36,6 @@ export const getDb = async () => {
     : console.log('Data not found in the database');
 
   return request?.value;
-
 };
 
 initdb();
